@@ -1,11 +1,16 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Threading;
 using System.Threading.Tasks;
-
+/**
+ * Project: Create a shared project that has two console applications that utilize the EnglishDictionary
+ * class.
+ * - Start by reading the dictionary file through a task to give a fast user experience.
+ * - A method to determine if a word can be found in the dictionary file.
+ * - A scrabble words method creates the possible words and confirms that they are in the dictionary.
+ * By: Matthew Blackert
+ * Class: CSE 382 Mobile Apps Development (Dr. Zmuda)
+ */
 namespace Project1
 {
 	public class EnglishDictionary
